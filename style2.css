@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+body {
+    background: #1a1a1a;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container,.manage-user {
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(44, 44, 44, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+h2 {
+    font-size: 2em;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+.btn-login {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.1em;
+    color: #fff;
+    background: linear-gradient(45deg, #00b7ff, #007bff);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 183, 255, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.5s;
+}
+input, select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 10px;
+    background: #333;
+    color: #e0e0e0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+ .manage-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+ }
+.table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 30px; /* Jarak 30px antara tabel dan tombol */
+    max-width: 100%;
+}
+thead {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+}
+
+th {
+    color: #00b7ff;
+    font-weight: 600;
+}
+
+td {
+    color: #e0e0e0;
+}
